@@ -410,3 +410,22 @@ knitr::kable(
   caption = "Resultados de los criterios de decisión del problema 2"
 )
 ```
+
+
+## Respuestas a las preguntas
+
+**a) Verdadera.** El criterio de Wald selecciona la alternativa $d_2$ (extremo derecho), ya que presenta el mayor rendimiento mínimo, con una puntuación de 69.
+
+**b) Falsa.** El criterio Optimista selecciona la alternativa $d_4$ (segundo delantero), porque permite alcanzar el mayor rendimiento posible, con una puntuación de 96.
+
+**c) Verdadera.** Para $\alpha=0.5$, el criterio de Hurwicz selecciona la alternativa $d_3$ (mediapunta), ya que presenta la mayor valoración, igual a 72.
+
+**d) Falsa.** El criterio de Savage selecciona la alternativa $d_3$ (mediapunta), mientras que Wald selecciona $d_2$ (extremo derecho). Por tanto, ambos criterios no coinciden.
+
+**e) Verdadera.** Los criterios de Laplace y Punto Ideal coinciden en seleccionar la alternativa $d_3$ (mediapunta), que presenta el mayor rendimiento medio y la menor distancia al punto ideal respectivamente.
+
+Por tanto, las afirmaciones verdaderas son **a), c) y e)**.
+
+
+
+

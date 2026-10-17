@@ -35,7 +35,7 @@ a) En situación favorable, el criterio de Wald selecciona la alternativa $d_2$.
 
 b) En situación favorable, el criterio Optimista selecciona la alternativa $d_3$.
 
-c) Para $\alpha=0.5$, el criterio de Hurwicz presenta un empate entre $d_2$ y $d_4$ en situación favorable, mientras que en situación desfavorable selecciona $d_1$.
+c) Para un coeficiente de optimismo $\alpha=0.5$, el criterio de Hurwicz selecciona la posición de mediapunta ($d_3$).
 
 d) El criterio de Savage selecciona la misma alternativa óptima en ambas situaciones.
 
