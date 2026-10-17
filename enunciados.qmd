@@ -44,7 +44,7 @@ e) En situación desfavorable, los criterios de Laplace y Punto Ideal selecciona
 
 # Problema 2. 
 
-El entrenador del Recreativo de Huelva debe decidir en qué posición poner a jugar a un joven futbolista de su plantilla para el próximo partido. Se trata de un jugador capaz de desenvolverse en diferentes posiciones de ataque, pero cuyo rendimiento puede variar en función del planteamiento táctico del equipo rival.
+El entrenador de un equipo de fútbol debe decidir en qué posición poner a jugar a un joven futbolista de su plantilla para el próximo partido. Se trata de un jugador capaz de desenvolverse en diferentes posiciones de ataque, pero cuyo rendimiento puede variar en función del planteamiento táctico del equipo rival.
 
 Se contemplan cuatro alternativas:
 
