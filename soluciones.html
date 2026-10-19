@@ -117,7 +117,10 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#solución-del-problema-1" id="toc-solución-del-problema-1" class="nav-link active" data-scroll-target="#solución-del-problema-1">1. Solución del Problema 1</a>
+  <li><a href="#problema-1." id="toc-problema-1." class="nav-link active" data-scroll-target="#problema-1.">Problema 1.</a>
+  <ul class="collapse">
+  <li><a href="#preguntas" id="toc-preguntas" class="nav-link" data-scroll-target="#preguntas">Preguntas</a></li>
+  <li><a href="#solución-del-problema-1" id="toc-solución-del-problema-1" class="nav-link" data-scroll-target="#solución-del-problema-1">1. Solución del Problema 1</a>
   <ul class="collapse">
   <li><a href="#criterio-de-wald" id="toc-criterio-de-wald" class="nav-link" data-scroll-target="#criterio-de-wald">Criterio de Wald</a></li>
   <li><a href="#criterio-optimista" id="toc-criterio-optimista" class="nav-link" data-scroll-target="#criterio-optimista">Criterio Optimista</a></li>
@@ -127,11 +130,15 @@ window.Quarto = {
   <li><a href="#criterio-de-punto-ideal" id="toc-criterio-de-punto-ideal" class="nav-link" data-scroll-target="#criterio-de-punto-ideal">Criterio de Punto Ideal</a></li>
   </ul></li>
   <li><a href="#respuestas-a-las-preguntas-propuestas-en-el-enunciado." id="toc-respuestas-a-las-preguntas-propuestas-en-el-enunciado." class="nav-link" data-scroll-target="#respuestas-a-las-preguntas-propuestas-en-el-enunciado.">Respuestas a las preguntas propuestas en el enunciado.</a></li>
+  </ul></li>
+  <li><a href="#problema-2." id="toc-problema-2." class="nav-link" data-scroll-target="#problema-2.">Problema 2.</a>
+  <ul class="collapse">
   <li><a href="#solución-del-problema-2." id="toc-solución-del-problema-2." class="nav-link" data-scroll-target="#solución-del-problema-2.">2. Solución del problema 2.</a>
   <ul class="collapse">
   <li><a href="#aplicación-de-los-criterios-de-decisión" id="toc-aplicación-de-los-criterios-de-decisión" class="nav-link" data-scroll-target="#aplicación-de-los-criterios-de-decisión">Aplicación de los criterios de decisión</a></li>
   </ul></li>
   <li><a href="#respuestas-a-las-preguntas" id="toc-respuestas-a-las-preguntas" class="nav-link" data-scroll-target="#respuestas-a-las-preguntas">Respuestas a las preguntas</a></li>
+  </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="soluciones.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li></ul></div></nav>
 </div>
@@ -162,6 +169,62 @@ window.Quarto = {
 </header>
 
 
+<section id="problema-1." class="level1">
+<h1>Problema 1.</h1>
+<p>Un decisor debe elegir entre cuatro alternativas, <span class="math inline">\(d_1\)</span>, <span class="math inline">\(d_2\)</span>, <span class="math inline">\(d_3\)</span> y <span class="math inline">\(d_4\)</span>, ante tres posibles estados de la naturaleza, <span class="math inline">\(e_1\)</span>, <span class="math inline">\(e_2\)</span> y <span class="math inline">\(e_3\)</span>, cuyas probabilidades de ocurrencia son desconocidas.</p>
+<p>La tabla de resultados es la siguiente:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Alternativa</th>
+<th style="text-align: right;"><span class="math inline">\(e_1\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(e_2\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(e_3\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(d_1\)</span></td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(d_2\)</span></td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">15</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(d_3\)</span></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">17</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(d_4\)</span></td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">29</td>
+</tr>
+</tbody>
+</table>
+<p>Se estudiarán dos situaciones:</p>
+<ul>
+<li><strong>Situación favorable:</strong> los valores de la tabla representan beneficios, por lo que el objetivo será maximizar los resultados.</li>
+<li><strong>Situación desfavorable:</strong> los valores representan costes, por lo que el objetivo, en este caso, será minimizar los resultados.</li>
+</ul>
+<p>Utilizando los criterios clásicos de decisión bajo incertidumbre (Wald, Optimista, Hurwicz, Savage, Laplace y Punto Ideal), y tomando un coeficiente de optimismo <span class="math inline">\(\alpha=0.5\)</span> para el criterio de Hurwicz, se pide determinar cuáles de las siguientes afirmaciones son verdaderas.</p>
+<section id="preguntas" class="level2">
+<h2 class="anchored" data-anchor-id="preguntas">Preguntas</h2>
+<ol type="a">
+<li><p>En situación favorable, el criterio de Wald selecciona la alternativa <span class="math inline">\(d_2\)</span>.</p></li>
+<li><p>En situación favorable, el criterio Optimista selecciona la alternativa <span class="math inline">\(d_3\)</span>.</p></li>
+<li><p>Para un coeficiente de optimismo <span class="math inline">\(\alpha=0.5\)</span>, el criterio de Hurwicz selecciona la posición de mediapunta (<span class="math inline">\(d_3\)</span>).</p></li>
+<li><p>El criterio de Savage selecciona la misma alternativa óptima en ambas situaciones.</p></li>
+<li><p>En situación desfavorable, los criterios de Laplace y Punto Ideal seleccionan la misma alternativa óptima.</p></li>
+</ol>
+</section>
 <section id="solución-del-problema-1" class="level2">
 <h2 class="anchored" data-anchor-id="solución-del-problema-1">1. Solución del Problema 1</h2>
 <p>En primer lugar, introducimos la tabla de decisión en R utilizando la función <code>crea.tablaX()</code> del archivo <code>teoriadecision_funciones_incertidumbre.R</code> .</p>
@@ -763,6 +826,70 @@ I_D=(1,9,12)
 <p><strong>e) Verdadera.</strong> En situación desfavorable, tanto Laplace como Punto Ideal seleccionan la alternativa <span class="math inline">\(d_1\)</span>.</p>
 <p>Luego, las afirmaciones verdaderas son <strong>a), c) y e)</strong>.</p>
 </section>
+</section>
+<section id="problema-2." class="level1">
+<h1>Problema 2.</h1>
+<p>El entrenador de un equipo de fútbol debe decidir en qué posición poner a jugar a un joven futbolista de su plantilla para el próximo partido. Se trata de un jugador capaz de desenvolverse en diferentes posiciones de ataque, pero cuyo rendimiento puede variar en función del planteamiento táctico del equipo rival.</p>
+<p>Se contemplan cuatro alternativas:</p>
+<ul>
+<li><span class="math inline">\(d_1\)</span>: <strong>Extremo izquierdo.</strong> Jugar por la banda izquierda, tratando de generar ocasiones de gol desde esa zona.</li>
+<li><span class="math inline">\(d_2\)</span>: <strong>Extremo derecho.</strong> Desempeñar una función similar pero por la banda derecha.</li>
+<li><span class="math inline">\(d_3\)</span>: <strong>Mediapunta.</strong> Situarse por detrás del delantero, participando en la creación de jugadas de ataque.</li>
+<li><span class="math inline">\(d_4\)</span>: <strong>Segundo delantero.</strong> Jugar cerca del delantero, participando más directamente en las ocasiones de gol.</li>
+</ul>
+<p>Sin embargo, el entrenador no conoce cómo planteará el partido el equipo contrario. Se consideran tres posibles estados de la naturaleza, según el estilo de juego del rival:</p>
+<ul>
+<li><span class="math inline">\(e_1\)</span>: <strong>Defensa cerrada.</strong> El rival acumula jugadores cerca de su portería, dejando pocos espacios para atacar.</li>
+<li><span class="math inline">\(e_2\)</span>: <strong>Presión alta.</strong> El rival intenta recuperar el balón cerca del área contraria, dificultando la salida del balón.</li>
+<li><span class="math inline">\(e_3\)</span>: <strong>Partido abierto.</strong> Ambos equipos disponen de espacios para atacar y se generan más oportunidades ofensivas.</li>
+</ul>
+<p>A partir de las características del jugador, el entrenador ha estimado su posible rendimiento ofensivo en cada situación mediante una puntuación de 0 a 100, donde los valores más elevados indican un mejor rendimiento. Las valoraciones se recogen en la siguiente tabla:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Posición</th>
+<th style="text-align: right;"><span class="math inline">\(e_1\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(e_2\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(e_3\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(d_1\)</span>: Extremo izquierdo</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">54</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(d_2\)</span>: Extremo derecho</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">69</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(d_3\)</span>: Mediapunta</td>
+<td style="text-align: right;">61</td>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">83</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="math inline">\(d_4\)</span>: Segundo delantero</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">72</td>
+<td style="text-align: right;">96</td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Nota: Como no se conocen las probabilidades de los distintos planteamientos del rival, el entrenador debe tomar una decisión bajo incertidumbre.</em></strong></p>
+<p>Considerando una <strong>situación favorable</strong>, en la que se pretende maximizar el rendimiento del jugador, se aplicarán los criterios de Wald, Optimista, Hurwicz, Savage, Laplace y Punto Ideal. Para el criterio de Hurwicz se utilizará un coeficiente de optimismo <span class="math inline">\(\alpha=0.5\)</span>.</p>
+<p>Determina cuáles de las siguientes afirmaciones son verdaderas:</p>
+<ol type="a">
+<li><p>Según el criterio de Wald, la mejor opción es alinear al jugador como extremo derecho (<span class="math inline">\(d_2\)</span>).</p></li>
+<li><p>El criterio Optimista selecciona la posición de extremo izquierdo (<span class="math inline">\(d_1\)</span>), ya que es la que permite alcanzar el mayor rendimiento posible.</p></li>
+<li><p>Para un coeficiente de optimismo <span class="math inline">\(\alpha=0.5\)</span>, el criterio de Hurwicz selecciona la alternativa <span class="math inline">\(d_3\)</span>.</p></li>
+<li><p>El criterio de Savage selecciona la misma alternativa que el criterio de Wald.</p></li>
+<li><p>Los criterios de Laplace y Punto Ideal coinciden en seleccionar la posición de mediapunta (<span class="math inline">\(d_3\)</span>).</p></li>
+</ol>
 <section id="solución-del-problema-2." class="level2">
 <h2 class="anchored" data-anchor-id="solución-del-problema-2.">2. Solución del problema 2.</h2>
 <p>Primero introducimos en R la tabla de decisión con las valoraciones estimadas para cada posición del jugador y cada posible planteamiento táctico del equipo rival.</p>
@@ -946,6 +1073,7 @@ I_D=(1,9,12)
 <p><strong>d) Falsa.</strong> El criterio de Savage selecciona la alternativa <span class="math inline">\(d_3\)</span> (mediapunta), mientras que Wald selecciona <span class="math inline">\(d_2\)</span> (extremo derecho). Por tanto, ambos criterios no coinciden.</p>
 <p><strong>e) Verdadera.</strong> Los criterios de Laplace y Punto Ideal coinciden en seleccionar la alternativa <span class="math inline">\(d_3\)</span> (mediapunta), que presenta el mayor rendimiento medio y la menor distancia al punto ideal respectivamente.</p>
 <p>Por tanto, las afirmaciones verdaderas son <strong>a), c) y e)</strong>.</p>
+</section>
 </section>
 
 </main>
