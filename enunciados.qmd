@@ -73,7 +73,7 @@ Las valoraciones se recogen en la siguiente tabla:
 
 Considerando una **situación favorable**, en la que se pretende maximizar el rendimiento del jugador, se aplicarán los criterios de Wald, Optimista, Hurwicz, Savage, Laplace y Punto Ideal. Para el criterio de Hurwicz se utilizará un coeficiente de optimismo $\alpha=0.5$.
 
-Determina cuáles de las siguientes afirmaciones son verdaderas:
+## Preguntas
 
 a) Según el criterio de Wald, la mejor opción es alinear al jugador como extremo derecho ($d_2$).
 

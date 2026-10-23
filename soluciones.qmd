@@ -40,7 +40,7 @@ d) El criterio de Savage selecciona la misma alternativa óptima en ambas situac
 
 e) En situación desfavorable, los criterios de Laplace y Punto Ideal seleccionan la misma alternativa óptima.
 
-## 1. Solución del Problema 1
+## Solución del Problema 1
 
 En primer lugar, introducimos la tabla de decisión en R utilizando la función `crea.tablaX()` del archivo `teoriadecision_funciones_incertidumbre.R` .
 
@@ -431,7 +431,7 @@ Las valoraciones se recogen en la siguiente tabla:
 
 Considerando una **situación favorable**, en la que se pretende maximizar el rendimiento del jugador, se aplicarán los criterios de Wald, Optimista, Hurwicz, Savage, Laplace y Punto Ideal. Para el criterio de Hurwicz se utilizará un coeficiente de optimismo $\alpha=0.5$.
 
-Determina cuáles de las siguientes afirmaciones son verdaderas:
+## Preguntas
 
 a) Según el criterio de Wald, la mejor opción es alinear al jugador como extremo derecho ($d_2$).
 
@@ -444,7 +444,7 @@ d) El criterio de Savage selecciona la misma alternativa que el criterio de Wald
 e) Los criterios de Laplace y Punto Ideal coinciden en seleccionar la posición de mediapunta ($d_3$).
 
 
-## 2. Solución del problema 2.
+## Solución del problema 2.
 
 Primero introducimos en R la tabla de decisión con las valoraciones estimadas para cada posición del jugador y cada posible planteamiento táctico del equipo rival.
 
